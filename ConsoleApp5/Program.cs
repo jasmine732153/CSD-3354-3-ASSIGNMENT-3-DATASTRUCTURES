@@ -28,14 +28,40 @@ namespace ConsoleApp3
 
     public delegate void Sort_DataStructure();
 
+    class Program
+
+    {
+
+        static void Main(string[] args)
+
+        {
+
+            Student a = new Student();
+
+            a.Announcement();
 
 
-
-
-   
 
         }
 
     }
 
-}
+
+
+    class Student
+
+    {
+
+        String Student_name;
+
+        String StudentID;
+
+        double StudentGPA;
+
+
+
+        // TODO: change this implementation so that the program pulls names from a Text File:
+
+        // to do this, you must change the container for Student Names from Array to List
+
+        
